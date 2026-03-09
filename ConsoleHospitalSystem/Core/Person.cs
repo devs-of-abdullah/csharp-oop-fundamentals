@@ -6,7 +6,7 @@ namespace HospitalSystem.Core
     {
         string? _name;
         int _age;
-        public const string HospitalName = "City Hospital";
+        public const string HospitalName = "Istanbul City Hospital";
 
         public string? Name
         {

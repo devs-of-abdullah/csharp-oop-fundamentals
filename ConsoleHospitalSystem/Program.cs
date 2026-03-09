@@ -16,7 +16,7 @@ namespace HospitalSystem
             Patient patient1 = new Patient("Kerem", 25, "Flu");
             Patient patient2 = new Patient("Majd", 34, "Fracture");
 
-            Console.WriteLine("--- Descriptions ---");
+            Console.WriteLine("Descriptions");
             List<Person> people = new List<Person> { doctor1, nurse1, patient1, patient2 };
             foreach (Person p in people)
             {
@@ -33,7 +33,7 @@ namespace HospitalSystem
                 worker.Work();
             }
 
-            Console.WriteLine("\n--- Prescriptions ---");
+            Console.WriteLine("\n Prescriptions");
             doctor1.Prescribe("Aspirin");
             doctor1.Prescribe("Aspirin", 7);
             doctor1.Prescribe("Aspirin", 7, "Take after meals");
