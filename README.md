@@ -16,7 +16,7 @@ HospitalSystem/
 - Models/       => Doctor, Nurse, Patient
 - Interfaces/   => IWorkable, IDescribable
 - Program.cs     => Entry point
-## OOP Concepts Covered
+
 ## Concepts
 - **Class & Object**: Class is the blueprint, Object is the instance 
 - **Constructor**: Runs on object creation to set initial state 
