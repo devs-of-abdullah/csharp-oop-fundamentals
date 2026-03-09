@@ -15,4 +15,4 @@ HospitalSystem/
 - Core/         => Abstract base class (Person)
 - Models/       => Doctor, Nurse, Patient
 - Interfaces/   => IWorkable, IDescribable
--Program.cs     => Entry point
+- Program.cs     => Entry point
