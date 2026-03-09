@@ -12,7 +12,7 @@ A project demonstrating all Object-Oriented Programming concepts in C#.
 
 ## Project Structure
 HospitalSystem/
-├── Core/          → Abstract base class (Person)
-├── Models/        → Doctor, Nurse, Patient
-├── Interfaces/    → IWorkable, IDescribable
-└── Program.cs     → Entry point
+- Core/         => Abstract base class (Person)
+- Models/       => Doctor, Nurse, Patient
+- Interfaces/   => IWorkable, IDescribable
+-Program.cs     => Entry point
