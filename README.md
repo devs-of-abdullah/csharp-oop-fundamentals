@@ -28,5 +28,5 @@ HospitalSystem/
 - **virtual/override**: Parent allows, child replaces method 
 - **const**: Compile-time constant, never changes 
 - **readonly**: Set once in constructor, then locked 
-**sealed**: Blocks inheritance or further overriding 
-**Access Modifiers**: public, private, protected, internal 
+- **sealed**: Blocks inheritance or further overriding 
+- **Access Modifiers**: public, private, protected, internal 
