@@ -13,13 +13,11 @@ namespace HospitalSystem.Models
             Ward = ward;
         }
 
-        // OVERRIDE abstract method
         public override void Describe()
         {
             Console.WriteLine($"Nurse {Name} | Ward: {Ward}");
         }
 
-        // INTERFACE implementation
         public void Work()
         {
             Console.WriteLine($"Nurse {Name} is administering medicine in {Ward} ward.");
